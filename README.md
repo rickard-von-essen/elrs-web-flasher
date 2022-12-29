@@ -28,5 +28,5 @@ The firmware folder, with all it's acoutrements can be downloaded from the Expre
 1. Browse to `https://github.com/ExpressLRS/ExpressLRS/actions/workflows/build.yml?query=branch%3A3.x.x-maintenance+`
 2. Find the latest `3.x.x-maintenance` build, and click on that build
 3. At the bottom of the page you will find `firmware`, this is the firmware zip that you need to download
-4. For development, unzip `firmware.zip` in the root folder, next to this `README.md` file.
+4. For development, unzip `firmware.zip` in the root folder, next to this `README.md` file. Then create a directory `firmware/3.1.1` and move everything inside `firmware` into it.
 5. For deployment, unzip `firmware.zip` in the same folder as `index.html`.
